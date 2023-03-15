@@ -36,7 +36,13 @@ create a `.env` file in your root folder with your [favourite database](https://
 ```bash
 npx prisma migrate dev
 ```
-### Run the project with
+## Now run the project
+
+#### Web and Server
 ```bash
 npm run dev
+```
+#### Mobile
+```bash
+npx expo start
 ```
