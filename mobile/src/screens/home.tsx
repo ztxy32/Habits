@@ -8,7 +8,7 @@ import { Loading } from "../components/Loading";
 import { api } from "../lib/axios";
 import { generateRangeDatesFromYearStart} from "../utils/generate-range-between-dates"
 
-const weekDays = ["D","S", "T", "Q", "Q", "S", "S"]//tá errado, o dia tem que começar no domingo
+const weekDays = ["D","S", "T", "Q", "Q", "S", "S"]
 const datesFromYearStart = generateRangeDatesFromYearStart()
 const minimumSummaryDateSizes = 18 * 5
 const ammountOfDaysTofill = minimumSummaryDateSizes - datesFromYearStart.length
